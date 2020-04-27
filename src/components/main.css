@@ -1,0 +1,86 @@
+body{
+  background-color: #fdf0e5;
+}
+
+h3:hover{
+  background-color: #fef8a6;
+}
+
+.jadefoto{
+  background: url("https://i.ibb.co/x73W6m8/jadexyz.jpg");
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    
+    margin: 2rem;
+    background-position: 75% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.videoWrapper{
+
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  margin-bottom: 1rem;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.pink{
+  background-color:#ffb49c;
+  color: white;
+  underline:none;
+}
+.enter{
+  display: block;
+}
+
+.homeheader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  flex-direction: column;
+  text-align: center;
+
+
+}
+
+
+.homeheaderfoto{
+width: 50vw;
+height: 50vh;
+    background: url("../images/een.jpg");
+    background-size:cover;
+    background-position: 70% 85%;
+
+
+
+}
+.homeondertitel{
+  margin:2rem 5rem;
+  text-align: justify;
+}
+@media only screen and (max-width: 750px) {
+  .enter{display: inline;}
+  .homeondertitel{
+    margin:2rem 2rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+  .homeheaderfoto{height: 30vh;
+  width: 70vw;}
+
+}

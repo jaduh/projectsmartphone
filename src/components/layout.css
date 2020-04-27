@@ -43,10 +43,13 @@ a {
   font-style: normal;
   color: hsla(0, 0%, 0%, 0.8);
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
 }
 a:active,
 a:hover {
   outline-width: 0;
+
+
 }
 abbr[title] {
   border-bottom: none;
@@ -264,6 +267,7 @@ h3 {
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
+  color:#ffb49d;
 }
 h4 {
   margin-left: 0;

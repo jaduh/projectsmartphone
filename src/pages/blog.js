@@ -19,13 +19,9 @@ const ArticleDate = styled.h5`
 
 const MarkerHeader = styled.h3`
   display: inline;
+  color:  rgb(255, 180, 156),
   border-radius: 1em 0 1em 0;
-  background-image: linear-gradient(
-    -100deg,
-    rgba(255, 250, 150, 0.15),
-    rgba(255, 250, 150, 0.8) 100%,
-    rgba(255, 250, 150, 0.25)
-  );
+
 `
 
 const ReadingTime = styled.h5`
@@ -38,7 +34,8 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Blog" />
       <Content>
-        <h1>Blog</h1>
+      <a href="/"><h3>PROJECT SMARTPHONE</h3></a>
+        <h1>Alles voor een vliegende start met smartphone video marketing</h1>
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
             const rawDate = node.frontmatter.rawDate
@@ -51,7 +48,7 @@ const IndexPage = ({ data }) => {
                 to={node.frontmatter.path}
                 css={css`
                   text-decoration: none;
-                  color: inherit;
+                  color: rgb(255, 180, 156),
                 `}
               >
                 <MarkerHeader>{node.frontmatter.title} </MarkerHeader>

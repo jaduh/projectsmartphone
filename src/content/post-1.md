@@ -1,9 +1,12 @@
 ---
 title: "This is such a long headline and i dont know what to write so i keep continiung"
 date: "2019-03-17"
-draft: false
+draft: true
 path: "/blog/example-title"
+
 ---
+
+![Image of Yaktocat]("../images/een.jpg")
 # H1
 
 ## H2
@@ -40,6 +43,3 @@ console.log(foo);
 | Hello | World |
 |-------|------ |
 | Foo   | Bar   |
-
-
-
